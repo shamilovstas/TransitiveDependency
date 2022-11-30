@@ -29,10 +29,10 @@ android {
 dependencies {
     implementation ("com.google.android.gms:play-services-base:18.1.0") {
 //        exclude group: 'androidx.activity'
-        exclude group: 'androidx.core'
+//        exclude group: 'androidx.core'
     }
     implementation ("com.google.android.gms:play-services-auth:20.4.0") {
 //        exclude group: 'androidx.activity'
-        exclude group: 'androidx.core'
+//        exclude group: 'androidx.core'
     }
 }
